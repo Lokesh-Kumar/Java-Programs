@@ -19,7 +19,10 @@ public class AddOneToNumberRepresented extends LinkedList {
 			head.data = head.data % 10;
 			return rem;
 		}else {
-			return head.data = head.data + addOne(head.next);
+			head.data = head.data + addOne(head.next);
+			int rem = head.data /10;
+			head.data = head.data % 10;
+			return rem;
 		}
 	}
 	public static void main(String args[]) {
@@ -28,7 +31,8 @@ public class AddOneToNumberRepresented extends LinkedList {
 		head = insert(head,9);
 		head = insert(head,9);
 		print(head);
-		addOne(head);
+		System.out.println();
+		System.out.println(addOne(head)); // If remaining greater than zero add that element as head
 		print(head);
 	}
 }
