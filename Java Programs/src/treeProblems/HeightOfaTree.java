@@ -4,10 +4,12 @@ package treeProblems;
 	int n;
 	Node left;
 	Node right;
+	int hd;
 	Node(int n){
 		this.n= n;
 		this.left = null;
 		this.right = null;
+		this.hd = 0;
 	}
 }
 
