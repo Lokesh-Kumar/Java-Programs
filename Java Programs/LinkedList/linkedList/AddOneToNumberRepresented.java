@@ -11,7 +11,6 @@ For example 1999 is represented as (1-> 9-> 9 -> 9) and adding 1 to it should ch
 public class AddOneToNumberRepresented extends LinkedList {
 	static Node head;
 	
-
 	public static int addOne(Node head) {
 		if(head.next == null) {
 			head.data = head.data + 1;
@@ -25,6 +24,7 @@ public class AddOneToNumberRepresented extends LinkedList {
 			return rem;
 		}
 	}
+	
 	public static void main(String args[]) {
 		head = insert(head,1);
 		head = insert(head,9);
