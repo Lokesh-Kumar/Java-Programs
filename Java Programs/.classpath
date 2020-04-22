@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="Stack"/>
 	<classpathentry kind="src" path="Graph"/>
 	<classpathentry kind="src" path="DynamicProgramming"/>
+	<classpathentry kind="src" path="Tree"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

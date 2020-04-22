@@ -1,8 +1,11 @@
-package treeProblems;
+package construction;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+
+import treeProblems.Node;
+import treeProblems.TreeTraversals;
 
 public class ConstructBtfromGivenRepresentation extends TreeTraversals{
 	
@@ -16,7 +19,7 @@ public class ConstructBtfromGivenRepresentation extends TreeTraversals{
 			int val = q.poll();
 			arl = find(val, parent);
 			q.addAll(arl);
-			addNode(root,val,arl);
+			//addNode(root,val,arl);
 			
 		}
 		return root;

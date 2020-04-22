@@ -1,4 +1,6 @@
-package treeProblems;
+package view;
+
+import treeProblems.Node;
 
 class Max_level { 
 	  

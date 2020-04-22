@@ -1,8 +1,10 @@
-package treeProblems;
+package view;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.TreeMap;
+
+import treeProblems.Node;
 
 public class BottomViewOfBinaryTree {
 	static Node root;

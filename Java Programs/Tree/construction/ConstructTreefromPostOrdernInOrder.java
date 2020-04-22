@@ -1,4 +1,6 @@
-package treeProblems;
+package construction;
+
+import treeProblems.Node;
 
 public class ConstructTreefromPostOrdernInOrder {
  /* Recursive function to construct binary of size n 

@@ -1,4 +1,7 @@
-package treeProblems;
+package view;
+
+import treeProblems.HeightOfaTree;
+import treeProblems.Node;
 
 /*
  *  Print the first node in that level
